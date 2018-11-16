@@ -10,6 +10,6 @@ Open/Close: Turns on/off communication with Push's display.
 
 Enable: Starts the capture of the computer screen.
 
-Decks/Browser/User: Switch between 3 captured rectangles from the computer screen. User view can be edited from Presentation Mode using the X, Y, Width, and Height values.
+Decks/Browser/User 1-2: Switch between captured areas from the computer screen. User views can be edited from Presentation Mode using the X, Y, Width, and Height values. "Store User 1-2" stores the current rectangle as User 1 or 2 presets.
 
 Decks and Browser view are selectable from the Browse and Clip buttons on Push.

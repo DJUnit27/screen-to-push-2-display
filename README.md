@@ -2,7 +2,7 @@
 
 Grabs a rectangular area of the screen and streams it to Push 2's display.
 
-Requires imp.push extension: https://github.com/impsnldavid/imp.push
+Requires imp.push Max Extension: https://github.com/impsnldavid/imp.push
 
 Controls:
 

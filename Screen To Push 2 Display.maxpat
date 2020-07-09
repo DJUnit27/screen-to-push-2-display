@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-73",
@@ -124,7 +125,7 @@
 					"patching_rect" : [ 876.0, 22.0, 95.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 70.5, 123.0, 60.0, 33.0 ],
+					"presentation_rect" : [ 70.5, 123.0, 60.0, 34.0 ],
 					"text" : "Store Display 2"
 				}
 
@@ -138,7 +139,7 @@
 					"patching_rect" : [ 744.0, 22.0, 95.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 4.0, 123.0, 60.0, 33.0 ],
+					"presentation_rect" : [ 4.0, 123.0, 60.0, 34.0 ],
 					"text" : "Store Display 1"
 				}
 
@@ -204,7 +205,7 @@
 					"patching_rect" : [ 876.0, 99.0, 95.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 203.0, 123.0, 60.0, 33.0 ],
+					"presentation_rect" : [ 203.0, 123.0, 60.0, 34.0 ],
 					"text" : "Store Display 4"
 				}
 
@@ -218,7 +219,7 @@
 					"patching_rect" : [ 744.0, 99.0, 95.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 139.25, 123.0, 58.5, 33.0 ],
+					"presentation_rect" : [ 139.25, 123.0, 58.5, 34.0 ],
 					"text" : "Store Display 3"
 				}
 
@@ -514,7 +515,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 676.5, 450.0, 127.0, 22.0 ],
-					"text" : "rect 0 30 1280 300"
+					"text" : "rect 0 30 1920 1080"
 				}
 
 			}
@@ -767,7 +768,7 @@
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 250.0, 521.1148681640625, 960.0, 160.0 ]
 				}
 
@@ -1433,8 +1434,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "imp.push.mxo",
-				"type" : "iLaX"
+				"name" : "imp.push.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

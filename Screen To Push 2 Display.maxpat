@@ -783,9 +783,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 123.0, 336.0, 53.0, 23.0 ],
-					"triscale" : 0.9
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 33 ],
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
+							"parameter_longname" : "number",
+							"parameter_shortname" : "number",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"triscale" : 0.9,
+					"varname" : "number"
 				}
 
 			}
@@ -812,8 +825,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 71.0, 367.0, 71.0, 23.0 ],
-					"text" : "qmetro 20"
+					"patching_rect" : [ 71.0, 367.0, 67.0, 23.0 ],
+					"text" : "qmetro 33"
 				}
 
 			}
@@ -991,7 +1004,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
-					"midpoints" : [ 132.5, 360.0, 132.5, 360.0 ],
+					"midpoints" : [ 132.5, 360.0, 128.5, 360.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1433,6 +1446,15 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-12" : [ "number", "number", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "imp.push.mxe64",
 				"type" : "mx64"
